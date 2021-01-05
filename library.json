@@ -1,0 +1,18 @@
+{
+  "name": "BiQuad",
+  "version": "1.0.1",
+  "description": "A template library of biqudratic filters",
+  "keywords": "biquad, biqudratic, bi-quadratic, filter, biquad filter, IIR, FIR, infinite, impulse, response",
+  "authors":
+  {
+    "name": "Evan",
+    "url": "https://github.com/halsw"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/halsw/BiQuad.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "frameworks": "arduino",
+}

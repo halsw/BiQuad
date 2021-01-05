@@ -2,7 +2,7 @@
  * This file is part of the BiQuad library
  * Usage: A template library for the implementation
  *        of biqudratic filters for arduino/teensy
- * Version 1.0
+ * Version 1.0.1
  * Developed by Evan https://github.com/halsw
  *
  * This program is free software: you can redistribute it and/or modify
@@ -458,7 +458,4 @@ void configBQFilter(BQFilter<BQ> *f, bool cascadeConfig, unsigned char type, flo
   } while (f && cascadeConfig); 
 }
 
-void designPolesZeroes(float* coefs, float zero1, float zero2, bool zeroesConjugate, float pole1, float pole2, bool polesConjugate) {
-  // find coefficients by evalucating (z - z1)*(z - z2)/(z - p1)*(z - p2)  
-}
 #endif

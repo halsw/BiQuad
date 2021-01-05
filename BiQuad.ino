@@ -2,8 +2,9 @@
  * This file is part of the BiQuad library
  * Usage: Provide an example use of the library
  *        and test performance of biquad filters
+ * Dependencies: FixedPoints library
  * 
- * Version 1.0
+ * Version 1.0.1
  * Developed by Evan https://github.com/halsw
  *
  * This program is free software: you can redistribute it and/or modify
