@@ -172,7 +172,7 @@ class BQFilter {
       BQFilter* f=this;
       BQ g = 1.0;
       do {
-        if (f->b2 == 0.0 && f->a1 == 0.0 && f->a2 == 0.0)
+        if (f->a2 == 0.0)
           g *= f->b0 / (1.0 + f->b1);
         else
           g *= (f->b0 + f->b1 + f->b2) / (1.0 + f->a1 + f->a2);
